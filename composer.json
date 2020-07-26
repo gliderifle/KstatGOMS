@@ -1,0 +1,19 @@
+{
+    "name": "mir/KstatGOMS",
+    "description": "Simple PHP framework",
+    "type":"library",
+    "license":"MIT",
+    "version":"0.0.1",
+    "authors": [
+        {
+            "name": "SJ",
+            "email": "gliderifle@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "KstatGOMS\\":"src/"
+        }
+    },
+    "require": {}
+}
