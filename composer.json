@@ -1,5 +1,5 @@
 {
-    "name": "mir/KstatGOMS",
+    "name": "gliderifle/kstat-goms",
     "description": "Simple PHP framework",
     "type":"library",
     "license":"MIT",
