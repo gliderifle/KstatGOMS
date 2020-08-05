@@ -7,7 +7,7 @@ class Adaptor
   private static $sth;
   public static function setup($dsn, $username, $password)
   {
-    self::$pdo = new \PDO($dsn, $username, $password);
+    self::$pdo = new \PDO($dsn, $username, $password, array(\PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
   }
 
   public static function exec($query, $params = [])
